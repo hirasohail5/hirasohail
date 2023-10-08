@@ -1,0 +1,138 @@
+#include<iostream>
+using namespace std;
+void cal(int num);
+main()
+{
+int num;
+cout<<"Enter a number (1-99): ";
+cin>>num;
+cal(num);
+
+}
+void cal(int num)
+{
+int q1,r1;
+q1=num/10;
+r1=num%10;
+{
+if(q1==2)
+{
+    cout<<"Twenty";
+}
+if(q1==3)
+{
+    cout<<"Thirty";
+}
+if(q1==4)
+{
+    cout<<"Fourty";
+}
+if(q1==5)
+{
+    cout<<"Fifty";
+}
+if(q1==6)
+{
+    cout<<"Sixty";
+}
+if(q1==7)
+{
+    cout<<"Seventy";
+}
+if(q1==8)
+{
+    cout<<"Eighty";
+}
+if(q1==9)
+{
+    cout<<"Ninety";
+}
+}
+{
+if(q1!=1)
+{
+    if(r1==1)
+    {
+        cout<<"One";
+    }
+    if(r1==2)
+    {
+        cout<<"Two";
+    }
+    if(r1==3)
+    {
+        cout<<"Three";
+    }
+    if(r1==4)
+    {
+        cout<<"Four";
+    }
+    if(r1==5)
+    {
+        cout<<"Five";
+    }
+    if(r1==6)
+    {
+        cout<<"Six";
+    }
+    if(r1==7)
+    {
+        cout<<"seven";
+    }
+    if(r1==8)
+    {
+        cout<<"Eight";
+    }
+    if(r1==9)
+    {
+        cout<<"Nine";
+    }
+}
+}
+{
+    if(q1==1)
+    {
+        if(r1==1)
+        {
+        cout<<"Eleven";
+        }
+        if(r1==2)
+        {
+        cout<<"Twelve";
+        }
+        if(r1==3)
+        {
+        cout<<"Thirteen";
+        }
+        if(r1==4)
+        {
+        cout<<"Fourteen";
+        }
+        if(r1==5)
+        {
+        cout<<"Fifteen";
+        }
+        if(r1==6)
+        {
+        cout<<"Sixteen";
+        }
+        if(r1==7)
+        {
+        cout<<"Seventeen";
+        }
+        if(r1==8)
+        {
+        cout<<"Eighteen";
+        }
+        if(r1==9)
+        {
+        cout<<"Nineteen";
+        }
+    }
+}
+}
+
+
+
+
+
